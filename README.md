@@ -7,6 +7,10 @@ Crypti white-paper version 0.1
 
 Contributors:
 
+GreXX
+
+Mike Doty
+
 Boris Povod https://github.com/crypti
 
 SyRenity https://github.com/SyRenity
