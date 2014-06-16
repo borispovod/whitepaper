@@ -1,15 +1,13 @@
 Crypti white-paper
 ==========
 
-Crypti whitepaper version 0.1
+Crypti white-paper version 0.1
 
 =================================
 
 Contributors:
 
-Boris
-
-Mike Doty
+Boris Povod https://github.com/MrPovod
 
 SyRenity https://github.com/SyRenity
 
