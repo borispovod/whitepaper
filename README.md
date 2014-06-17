@@ -153,7 +153,7 @@ A hedge fund may elect to create its own network, issuing assets representing po
 
 These features, and more, are enabled by the Crypti API and custom protocol capability. Below is an outline of how the custom network and blockchain feature of Crypti.
 
-1. Custom network.
+1) Custom network.
 
 The founder must be identified on Crypti as the creator of the network. The identification block includes:
 
@@ -164,11 +164,11 @@ The founder must be identified on Crypti as the creator of the network. The iden
 
 The founder then signs the hash of this information with his private key. This completes the creation of a custom network.
 
-2. Connecting to the network.
+2) Connecting to the network.
 
 To connect to the network as a client or as a node, you must specify your Crypti address public key.
 
-3. Assets
+3) Assets
 
 Any Crypti user can create assets. The prices of assets, denominated in Crypti, are established by the founders of their networks, if they choose to set a price. It is not necessary to pay for creating assets which do not have a listed price.
 
@@ -184,7 +184,7 @@ The asset data is then sent to the network, including:
 After the asset data is published, the asset itself can be sent through network, other clients can receive the asset, and the transactions marked as confirmed and paid when the blocks containing the transactions are forged and added to the blockchain.
 
 
-4. Transactions.
+4) Transactions.
 
 To spend an asset, the user needs to enter the asset name in the transaction, the name and address of the network it resides on, and the signature of the network. The transaction is sent without a receiving address and has an ID distinguishing it from other transactions.
 
@@ -192,7 +192,7 @@ Then comes the forging by nodes in the network which approve and enter the forge
 
 After adding a transaction to a block, the fee from the transaction will be distributed in the core network, with the amount of the transaction to be shared between forging nodes in the network and the founder of the network, if a fee has been listed for using that network. Nodes having more weight at the time of forging receive proportionally more coins, along with the network founder receiving a portion of the fee.
 
-5. Nodes.
+5) Nodes.
 
 A node in the network is both a client and a server. Each node has a weight depending on its current up-time in the network. Depending on the weight, we know which node will forge the following block.
 
@@ -200,7 +200,7 @@ The node forging the block indicates which transactions are added to the blockch
 
 Once the block has been forged, it must be confirmed by the both network the asset resides on and by the main Crypti blockchain.
 
-6. Blocks.
+6) Blocks.
 
 Blocks are forged in each network. All nodes know where to the next block will be forged on the main blockchain.
 
