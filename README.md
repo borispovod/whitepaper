@@ -40,7 +40,7 @@ The Merchant accounts will be validated by the Crypti network and in exchange fo
 
 The transaction fees will be awarded as follows:
 
-Transaction fees will be 1% of the total transaction amount, paid by the sender. If you transfer 100 Crypti from your account to another, you will charged a 1 Crypti fee to process the transaction.
+Transaction fees will be 1% of the total transaction amount, paid by the merchant. If you transfer 100 Crypti from your account to another, you will charged a 1 Crypti fee to process the transaction.
 This is the basis of how Crypti will be able to reward users without inflating the total currency in circulation.
 
 That 1% fee will be added to all other fees within that block, and 50% of the Tx fee will always go to the Forger. This is the person on the network with the highest current weight as a factor of Proof-of-Purchase (PoP) + Proof-of-Time (PoT).
