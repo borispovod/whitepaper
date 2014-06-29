@@ -50,6 +50,9 @@ The other 50% depends on whether or not the transaction was a purchase activity 
 If the transaction was a purchase activity (i.e. you bought something from a validated merchant), then this 50% of the transaction fee will be awarded to the merchant account that you purchased the goods from.
 If no merchant was involved, the entire 100% of this reward will go to the Forger.
 
+As per the overall 1%, we are looking at a sliding scale based on volume.
+We are currently looking at having the 1% transaction fee reduce by 25% every time the transaction volume doubles.
+
 
 ## The System
 The actual system being used for Crypti is based on a hybrid Proof-of-Time (PoT) / Proof-of-Purchase (PoP) algorithm and it was custom designed to solve the major problems with the current breed of Crypto Currencies, while still adding new features to ensure it’s long term success.
