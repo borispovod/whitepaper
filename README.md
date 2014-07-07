@@ -50,8 +50,14 @@ The other 50% depends on whether or not the transaction was a purchase activity 
 If the transaction was a purchase activity (i.e. you bought something from a validated merchant), then this 50% of the transaction fee will be awarded to the merchant account that you purchased the goods from.
 If no merchant was involved, the entire 100% of this reward will go to the Forger.
 
-As per the overall 1%, we are looking at a sliding scale based on volume.
-We are currently looking at having the 1% transaction fee reduce by 25% every time the transaction volume doubles.
+The 1% transaction fee will be reduced by a formula, fee=.01/(1+.000002*volume) so that the fee is continuously reduced
+as the transaction volume increases while the overall network revenue continues to increase to reward network activity.
+Below is a chart showing the fee and network revenue as the transaction volume increases.
+The expected volume is based on current statistics for Bitcoin, showing a range of up to 1% total distribution of 100,000,000 Crypti.
+The actual dollar value of Crypti transaction volume and revenue can be expected to increase significantly more since there is only a
+fixed quantity of Crypti made.
+
+![Image of Crypti fee and network revenue chart](https://raw.githubusercontent.com/crypti/whitepaper/master/fee_chart.png)
 
 
 ## The System
