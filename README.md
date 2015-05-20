@@ -1,6 +1,8 @@
 Crypti white-paper
 ==========
 
+**This is old version of Crypti White Paper. We will release one new soon. Thanks for your patience.**
+
 Crypti white-paper version 0.1
 
 =================================
